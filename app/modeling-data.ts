@@ -49,7 +49,10 @@ export type ResourceRecord = {
   paperCode?: string;
   summary: string;
   collection: string;
-  availability: "仅索引" | "原创摘要";
+  availability: "仅索引" | "原创摘要" | "待校验" | "在线只读";
+  viewerAvailable?: boolean;
+  pageCount?: number;
+  sourceFormat?: "PDF" | "DOC" | "DOCX" | "图像集";
 };
 
 export const modelingCategories = [
@@ -519,4 +522,8 @@ export function getGuide(slug: string) {
 
 export function getMethod(slug: string) {
   return methods.find((method) => method.slug === slug);
+}
+
+export function getPaper(id: string) {
+  return paperResources.find((resource) => resource.id === id && resource.category === "优秀论文");
 }

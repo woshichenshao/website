@@ -1,9 +1,10 @@
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { dirname, extname, join, relative, sep } from "node:path";
 
 const sourceRoot = join(process.cwd(), "资料", "1992-2025数学建模国赛优秀论文大汇总！");
 const outputPath = join(process.cwd(), "data", "paper-index.json");
+const sourceManifestPath = join(process.cwd(), "work", "papers", "source-manifest.json");
 
 if (!existsSync(sourceRoot)) throw new Error("未找到历年论文资料目录");
 
@@ -37,11 +38,11 @@ function isPaperFile(file) {
   const year = Number(segments[0]?.match(/(19|20)\d{2}/)?.[0]);
 
   if (!year || /(?:真题|赛题|附件)/u.test(nestedFolders)) return false;
-  if (/^(?:format\d*|[A-F]题|附件\d*)[（(]?1?[）)]?\.(?:pdf|docx?|PDF)$/iu.test(filename)) return false;
+  if (/^(?:format\d*|附件\d*|[A-F]题?附件\d*)[（(]?1?[）)]?\.(?:pdf|docx?|PDF)$/iu.test(filename)) return false;
 
   return /(?:优秀论文|展示论文)/u.test(nestedFolders)
     || /优秀论文/u.test(filename)
-    || new RegExp(`^${year}[A-F](?:[：:\s-]|$)`, "iu").test(filename)
+    || new RegExp(`^${year}[A-F](?:[（(\s-]|$)`, "iu").test(filename)
     || /^[A-F]\d{3,}/iu.test(filename);
 }
 
@@ -67,8 +68,8 @@ function cleanTitle(year, filename, code) {
   let title = filename.slice(0, -extension.length).replace(/\s*[（(]1[）)]$/u, "").trim();
   if (/^[A-F]\d{3,}$/iu.test(title)) return `${year} 年国赛优秀论文 ${title.toUpperCase()}`;
   title = title
-    .replace(new RegExp(`^${year}年?[A-F]题?优秀论文[①②③④⑤⑥⑦⑧⑨⑩\d]*\\s*`, "u"), "")
-    .replace(new RegExp(`^${year}[A-F][：:\s-]*`, "iu"), "")
+    .replace(new RegExp(`^${year}年?[A-F]题?优秀论文[①②③④⑤⑥⑦⑧\\d]*\\s*`, "u"), "")
+    .replace(new RegExp(`^${year}[A-F][：:（(\\s-]*`, "iu"), "")
     .trim();
   return title || `${year} 年国赛优秀论文 ${code ?? ""}`.trim();
 }
@@ -99,9 +100,11 @@ for (const file of walk(sourceRoot).filter(isPaperFile)) {
     paperCode: code && code.length > 1 ? code : undefined,
     problemType: inferType(title),
     format: extension === ".pdf" ? "PDF" : "DOCX",
-    summary: "历年优秀论文元数据条目，仅用于检索、选题训练与方法复盘，不提供原文下载。",
+    sourceFormat: extension.slice(1).toUpperCase(),
+    summary: "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
     collection: "1992—2025 数学建模国赛优秀论文汇总",
-    availability: "仅索引",
+    availability: "待校验",
+    source: { kind: "file", path: file.absolute, bytes: file.size },
   });
 }
 
@@ -112,7 +115,19 @@ const scannedCollections = [
   [2024, "D033"], [2024, "E010"], [2024, "E061"], [2024, "E218"],
 ];
 
+const scanZip = join(sourceRoot, "2024年数学建模国赛真题+优秀论文", "2024国赛优秀论文", "2024国赛优秀论文.zip");
 for (const [year, code] of scannedCollections) {
+  const source = year === 2024
+    ? { kind: "zip-images", path: scanZip, code }
+    : {
+        kind: "directory-images",
+        path: readdirSync(sourceRoot, { withFileTypes: true })
+          .find((entry) => entry.isDirectory() && entry.name.startsWith(`${year}年国赛优秀论文`) && entry.name.includes(code))?.name,
+      };
+  if (source.kind === "directory-images") {
+    if (!source.path) throw new Error(`未找到扫描论文目录：${year} ${code}`);
+    source.path = join(sourceRoot, source.path);
+  }
   candidates.push({
     id: `paper-${year}-${code.toLowerCase()}`,
     title: `${year} 年国赛优秀论文 ${code}`,
@@ -123,9 +138,11 @@ for (const [year, code] of scannedCollections) {
     paperCode: code,
     problemType: "综合",
     format: "图像集",
-    summary: "扫描版优秀论文元数据条目，仅用于检索与后续原创整理，不提供原文下载。",
+    sourceFormat: "图像集",
+    summary: "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
     collection: "1992—2025 数学建模国赛优秀论文汇总",
-    availability: "仅索引",
+    availability: "待校验",
+    source,
   });
 }
 
@@ -136,17 +153,31 @@ for (const item of candidates) {
   if (!existing || (existing.format !== "PDF" && item.format === "PDF")) byPaper.set(key, item);
 }
 
-const records = [...byPaper.values()].sort((a, b) => b.year - a.year || (a.paperCode ?? a.title).localeCompare(b.paperCode ?? b.title, "zh-CN"));
-const byYear = Object.fromEntries([...new Set(records.map((item) => item.year))].sort((a, b) => b - a).map((year) => [year, records.filter((item) => item.year === year).length]));
+const selected = [...byPaper.values()].sort((a, b) => b.year - a.year || (a.paperCode ?? a.title).localeCompare(b.paperCode ?? b.title, "zh-CN"));
+const byYear = Object.fromEntries([...new Set(selected.map((item) => item.year))].sort((a, b) => b - a).map((year) => [year, selected.filter((item) => item.year === year).length]));
+const records = selected.map((item) => ({
+  ...Object.fromEntries(Object.entries(item).filter(([key]) => key !== "source")),
+  viewerAvailable: false,
+}));
 
 const output = {
   generatedAt: new Date().toISOString(),
-  policy: "仅公开论文元数据；不包含本地路径、文件链接、下载地址、作者个人信息或论文正文。",
+  policy: "全部论文已获全文公开展示授权；仅提供站内只读阅读，不包含本地路径、公开存储地址或下载入口。",
   count: records.length,
   byYear,
   records,
 };
 
+if (records.length !== 521) {
+  const previous = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, "utf8")).records : [];
+  const previousIds = new Set(previous.map((item) => item.id));
+  const additions = records.filter((item) => !previousIds.has(item.id)).map((item) => `${item.year} ${item.paperCode ?? ""} ${item.title}`);
+  throw new Error(`论文索引数量异常：${records.length}，预期 521；新增候选：${additions.join(" | ")}`);
+}
+if (new Set(records.map((item) => item.id)).size !== records.length) throw new Error("论文 ID 不唯一");
+
 mkdirSync(dirname(outputPath), { recursive: true });
+mkdirSync(dirname(sourceManifestPath), { recursive: true });
 writeFileSync(outputPath, JSON.stringify(output, null, 2) + "\n", "utf8");
-console.log(JSON.stringify({ count: records.length, byYear }));
+writeFileSync(sourceManifestPath, JSON.stringify({ generatedAt: output.generatedAt, count: selected.length, records: selected }, null, 2) + "\n", "utf8");
+console.log(JSON.stringify({ count: records.length, byYear, formats: Object.fromEntries(Object.entries(records.reduce((acc, item) => ((acc[item.format] = (acc[item.format] ?? 0) + 1), acc), {}))) }));

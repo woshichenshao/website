@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { ResourceRecord } from "../modeling-data";
 
 const all = "全部";
@@ -44,7 +45,7 @@ export function ResourceCatalog({ resources }: { resources: ResourceRecord[] }) 
             <article key={item.id}>
               <div className="resource-year">{item.year ?? "通用"}</div>
               <div className="resource-main"><div className="resource-tags"><span>{item.category}</span>{item.paperCode ? <span>{item.paperCode}</span> : null}<span>{item.problemType}</span><span>{item.format}</span></div><h2>{item.title}</h2><p>{item.summary}</p><small>{item.collection}</small></div>
-              <div className="availability"><span>{item.availability}</span><p>{item.paperCode ?? (item.problem ? `${item.problem} 题` : "资料集合")}</p>{item.category === "优秀论文" ? <small>原文不可下载</small> : null}</div>
+              <div className="availability"><span>{item.availability}</span><p>{item.paperCode ?? (item.problem ? `${item.problem} 题` : "资料集合")}</p>{item.viewerAvailable ? <Link className="paper-read-link" href={`/papers/${item.id}`}>在线阅读</Link> : item.category === "优秀论文" ? <small>全文校验中</small> : null}</div>
             </article>
           ))}
           {visible.length < filtered.length ? <div className="load-more"><button type="button" onClick={() => setLimit((value) => value + 40)}>继续显示后 40 条</button><span>剩余 {filtered.length - visible.length} 条</span></div> : null}
