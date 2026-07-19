@@ -34,7 +34,7 @@ const worker = {
     const paperMatch = url.pathname.match(/^\/paper-content\/(paper-[a-z0-9-]+)$/);
     if (paperMatch) return servePaper(request, env.PAPERS, paperMatch[1]);
 
-    if (url.pathname === "/_internal/paper-upload-status") return paperUploadStatus(request, env.PAPERS);
+    if (url.pathname === "/paper-upload-status") return paperUploadStatus(request, env.PAPERS);
 
     const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)(?:\/(.*))?$/);
     if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1], uploadMatch[2] ?? "");
