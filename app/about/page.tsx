@@ -31,7 +31,20 @@ export default function AboutPage() {
           </section>
         </div>
         <p className="about-lead">
-          目前网站处于首发版本。你可以通过 <a className="text-link" href="mailto:hello@example.com">邮件</a> 联系我。
+          目前网站处于首发版本。你可以通过{" "}
+          <a className="text-link" href="mailto:3229124317@qq.com">
+            邮件
+          </a>{" "}
+          或{" "}
+          <a
+            className="text-link"
+            href="https://github.com/woshichenshao"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          联系我。
         </p>
       </main>
       <SiteFooter />

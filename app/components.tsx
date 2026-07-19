@@ -12,7 +12,10 @@ export function SiteHeader() {
         <nav aria-label="主导航">
           <Link href="/articles">文章</Link>
           <Link href="/about">关于</Link>
-          <a href="mailto:hello@example.com">联系</a>
+          <a href="mailto:3229124317@qq.com">联系</a>
+          <a href="https://github.com/woshichenshao" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
         </nav>
       </div>
     </header>
