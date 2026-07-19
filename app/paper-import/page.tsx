@@ -12,13 +12,13 @@ export default function PaperImportPage() {
   const validFiles = useMemo(() => files.filter((file) => /^paper-[a-z0-9-]+\.pdf$/i.test(file.name)), [files]);
 
   async function startUpload() {
-    if (!token || validFiles.length !== 521 || running) return;
+    if (!token || validFiles.length === 0 || running) return;
     setRunning(true);
     const queue = [...validFiles];
     const failed: string[] = [];
     let done = 0;
     setProgress({ done, total: queue.length, message: "开始导入私有论文库", failed });
-    const workers = Array.from({ length: 2 }, async () => {
+    const workers = Array.from({ length: 1 }, async () => {
       while (queue.length) {
         const file = queue.shift();
         if (!file) break;
@@ -33,7 +33,7 @@ export default function PaperImportPage() {
       }
     });
     await Promise.all(workers);
-    setProgress({ done, total: validFiles.length, message: failed.length ? "导入结束，但存在失败项" : "521 篇已全部导入并核对", failed: [...failed] });
+    setProgress({ done, total: validFiles.length, message: failed.length ? "本批导入结束，但存在失败项" : "本批文件已全部导入并核对", failed: [...failed] });
     setRunning(false);
   }
 
@@ -42,11 +42,11 @@ export default function PaperImportPage() {
       <section className="import-panel">
         <p className="eyebrow">Private paper ingestion</p>
         <h1>论文私有存储导入</h1>
-        <p>一次性内部页面。只接受命名为 paper-id.pdf 的 521 个文件；完成后删除本页和导入令牌。</p>
+        <p>一次性内部页面。支持分批选择命名为 paper-id.pdf 的文件；521 篇全部完成后删除本页和导入令牌。</p>
         <label>导入令牌<input data-testid="paper-import-token" type="password" value={token} onChange={(event) => setToken(event.target.value)} autoComplete="off" /></label>
         <label>论文文件<input data-testid="paper-import-files" type="file" accept="application/pdf,.pdf" multiple onChange={(event) => setFiles(Array.from(event.target.files ?? []))} /></label>
         <div className="import-summary"><strong>{validFiles.length}</strong><span>/ 521 个有效 PDF</span></div>
-        <button data-testid="paper-import-start" type="button" disabled={running || !token || validFiles.length !== 521} onClick={startUpload}>{running ? "正在导入……" : "开始导入"}</button>
+        <button data-testid="paper-import-start" type="button" disabled={running || !token || validFiles.length === 0} onClick={startUpload}>{running ? "正在导入……" : "开始导入"}</button>
         <div className="import-progress" aria-live="polite"><progress max={Math.max(progress.total, 1)} value={progress.done} /><p>{progress.done} / {progress.total} · {progress.message}</p></div>
         {progress.failed.length ? <details open><summary>{progress.failed.length} 个失败项</summary><pre>{progress.failed.join("\n")}</pre></details> : null}
       </section>
