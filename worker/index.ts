@@ -54,19 +54,30 @@ const worker = {
   },
 };
 
+const EXPECTED_PAPER_MANIFEST_DIGEST = "557c0b4e38cf70dd83ea009f76ad48ed9c7d58a1d7f85a50bc49049dee9088ed";
+
 async function paperUploadStatus(request: Request, bucket: R2Bucket) {
   if (request.method !== "GET") return new Response("Method not allowed", { status: 405 });
   let cursor: string | undefined;
   let count = 0;
   let bytes = 0;
+  const records: Array<{ key: string; size: number; sha256: string }> = [];
   do {
-    const page = await bucket.list({ prefix: "papers/", cursor });
+    const page = await bucket.list({ prefix: "papers/", cursor, include: ["customMetadata"] });
     count += page.objects.length;
     bytes += page.objects.reduce((sum, object) => sum + object.size, 0);
+    records.push(...page.objects.map((object) => ({
+      key: object.key,
+      size: object.size,
+      sha256: object.customMetadata?.sha256 ?? "",
+    })));
     cursor = page.truncated ? page.cursor : undefined;
   } while (cursor);
-  const complete = count === 521;
-  const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>论文导入状态</title></head><body><main><h1>论文导入状态</h1><p id="paper-count">${count} / 521</p><p>${bytes} bytes</p><p>${complete ? "全部对象已写入" : "导入进行中"}</p></main></body></html>`;
+  records.sort((a, b) => a.key.localeCompare(b.key));
+  const digestBytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(JSON.stringify(records)));
+  const digest = Array.from(new Uint8Array(digestBytes), (byte) => byte.toString(16).padStart(2, "0")).join("");
+  const verified = count === 521 && digest === EXPECTED_PAPER_MANIFEST_DIGEST;
+  const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>论文导入状态</title></head><body><main><h1>论文导入状态</h1><p id="paper-count">${count} / 521</p><p>${bytes} bytes</p><p id="paper-integrity">${verified ? "完整性校验通过" : "完整性校验未通过"}</p></main></body></html>`;
   return new Response(html, {
     headers: {
       "content-type": "text/html; charset=utf-8",
