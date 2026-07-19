@@ -34,6 +34,8 @@ const worker = {
     const paperMatch = url.pathname.match(/^\/paper-content\/(paper-[a-z0-9-]+)$/);
     if (paperMatch) return servePaper(request, env.PAPERS, paperMatch[1]);
 
+    if (url.pathname === "/_internal/paper-upload-status") return paperUploadStatus(request, env.PAPERS);
+
     const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)(?:\/(.*))?$/);
     if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1], uploadMatch[2] ?? "");
 
@@ -51,6 +53,23 @@ const worker = {
     return handler.fetch(request, env, ctx);
   },
 };
+
+async function paperUploadStatus(request: Request, bucket: R2Bucket) {
+  if (request.method !== "GET") return new Response("Method not allowed", { status: 405 });
+  let cursor: string | undefined;
+  let count = 0;
+  let bytes = 0;
+  do {
+    const page = await bucket.list({ prefix: "papers/", cursor });
+    count += page.objects.length;
+    bytes += page.objects.reduce((sum, object) => sum + object.size, 0);
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor);
+  return Response.json(
+    { count, expected: 521, bytes, complete: count === 521 },
+    { headers: { "cache-control": "no-store", "x-robots-tag": "noindex, noarchive, nosnippet" } },
+  );
+}
 
 async function servePaper(request: Request, bucket: R2Bucket, paperId: string) {
   if (request.method !== "GET" && request.method !== "HEAD") return new Response("Method not allowed", { status: 405 });
