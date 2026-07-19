@@ -95,6 +95,12 @@ async function request(url, init, throwOnFailure = true) {
     headers: {
       authorization: `Bearer ${uploadToken}`,
       "OAI-Sites-Authorization": `Bearer ${bypassToken}`,
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138.0 Safari/537.36",
+      accept: "application/json, text/plain, */*",
+      origin: siteUrl,
+      referer: `${siteUrl}/resources`,
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
       ...init.headers,
     },
   });
