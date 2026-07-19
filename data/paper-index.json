@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T11:57:10.510Z",
-  "policy": "全部论文已获全文公开展示授权；仅提供站内只读阅读，不包含本地路径、公开存储地址或下载入口。",
+  "generatedAt": "2026-07-19T15:08:30.149Z",
+  "policy": "全部 521 篇论文均已取得全文公开展示授权；仅提供站内 Canvas 只读阅读，不提供复制、打印、下载入口或公开存储地址。",
   "count": 521,
   "byYear": {
     "1992": 7,
@@ -51,8 +51,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 86
     },
     {
       "id": "paper-c3df5916a82f",
@@ -67,8 +68,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 98
     },
     {
       "id": "paper-c86bc2217b00",
@@ -83,8 +85,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 72
     },
     {
       "id": "paper-bde432040176",
@@ -99,8 +102,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 122
     },
     {
       "id": "paper-6b2ec73fbafb",
@@ -115,8 +119,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 65
     },
     {
       "id": "paper-0ab4e8372482",
@@ -131,8 +136,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-2f11e1079a85",
@@ -147,8 +153,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-2024-a016",
@@ -163,8 +170,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 59
     },
     {
       "id": "paper-2024-a053",
@@ -179,8 +187,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 62
     },
     {
       "id": "paper-2024-a163",
@@ -195,8 +204,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-2024-a178",
@@ -211,8 +221,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 48
     },
     {
       "id": "paper-2024-a242",
@@ -227,8 +238,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 55
     },
     {
       "id": "paper-2024-b159",
@@ -243,8 +255,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-2024-b195",
@@ -259,8 +272,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 70
     },
     {
       "id": "paper-2024-b196",
@@ -275,8 +289,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-2024-c038",
@@ -291,8 +306,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 61
     },
     {
       "id": "paper-2024-c063",
@@ -307,8 +323,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 49
     },
     {
       "id": "paper-2024-c094",
@@ -323,8 +340,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 58
     },
     {
       "id": "paper-2024-c234",
@@ -339,8 +357,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-2024-d033",
@@ -355,8 +374,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 55
     },
     {
       "id": "paper-2024-e010",
@@ -371,8 +391,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-2024-e061",
@@ -387,8 +408,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-2024-e218",
@@ -403,8 +425,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 62
     },
     {
       "id": "paper-44e43cf3720d",
@@ -419,8 +442,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 53
     },
     {
       "id": "paper-a232e3ee1f5c",
@@ -435,8 +459,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 58
     },
     {
       "id": "paper-56144cd138b3",
@@ -451,8 +476,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-bfe1942af328",
@@ -467,8 +493,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-c02ad82cac56",
@@ -483,8 +510,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 51
     },
     {
       "id": "paper-898bd2c96cf0",
@@ -499,8 +527,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 34
     },
     {
       "id": "paper-e603a4a8d2dc",
@@ -515,8 +544,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 50
     },
     {
       "id": "paper-7d088e54ac11",
@@ -531,8 +561,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 44
     },
     {
       "id": "paper-37c7cde9df4c",
@@ -547,8 +578,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 74
     },
     {
       "id": "paper-d29162ede09e",
@@ -563,8 +595,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 70
     },
     {
       "id": "paper-bb593f4b2200",
@@ -579,8 +612,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 73
     },
     {
       "id": "paper-bbf91dfd9ecf",
@@ -595,8 +629,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-7da451cd35b8",
@@ -611,8 +646,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 53
     },
     {
       "id": "paper-3568439c2144",
@@ -627,8 +663,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 56
     },
     {
       "id": "paper-2022-a001",
@@ -643,8 +680,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-2022-a171",
@@ -659,8 +697,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 57
     },
     {
       "id": "paper-2022-b035",
@@ -675,8 +714,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 41
     },
     {
       "id": "paper-2022-b086",
@@ -691,8 +731,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-2022-c229",
@@ -707,8 +748,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-2022-e014",
@@ -723,8 +765,9 @@
       "sourceFormat": "图像集",
       "summary": "扫描版优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-eb911dbe9f03",
@@ -737,8 +780,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 22
     },
     {
       "id": "paper-67af0abc7e53",
@@ -751,8 +795,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-77ff524c6765",
@@ -766,8 +811,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 34
     },
     {
       "id": "paper-467b9ac0e9b1",
@@ -781,8 +827,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-56ff983e90d2",
@@ -796,8 +843,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 50
     },
     {
       "id": "paper-90082aa44606",
@@ -811,8 +859,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-31f7edc49946",
@@ -826,8 +875,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 104
     },
     {
       "id": "paper-642feb480342",
@@ -841,8 +891,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-9f429c118740",
@@ -856,8 +907,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 77
     },
     {
       "id": "paper-ed2033a34443",
@@ -871,8 +923,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 89
     },
     {
       "id": "paper-819ec3d5f56d",
@@ -886,8 +939,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 42
     },
     {
       "id": "paper-74a23f9d8c2e",
@@ -901,8 +955,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 135
     },
     {
       "id": "paper-47b888dad839",
@@ -916,8 +971,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 46
     },
     {
       "id": "paper-bbcf878e10af",
@@ -931,8 +987,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-9bc74a0f5697",
@@ -946,8 +1003,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-b73569a4a488",
@@ -961,8 +1019,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 53
     },
     {
       "id": "paper-b0817f10e193",
@@ -976,8 +1035,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-423fdaf3d933",
@@ -991,8 +1051,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-0248678f96f9",
@@ -1006,8 +1067,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-fa0e507f52fd",
@@ -1021,8 +1083,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-29058b8b2c29",
@@ -1036,8 +1099,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-9fcf1fdbdab9",
@@ -1051,8 +1115,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-ca9c481de4fc",
@@ -1066,8 +1131,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-878138a35e9c",
@@ -1081,8 +1147,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 23
     },
     {
       "id": "paper-1ef2c9329d42",
@@ -1096,8 +1163,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-b6cee4b9d769",
@@ -1111,8 +1179,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 42
     },
     {
       "id": "paper-70416e6c1c45",
@@ -1126,8 +1195,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-483404f3abf8",
@@ -1141,8 +1211,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-7076cb4adeb8",
@@ -1156,8 +1227,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-d65039415ed9",
@@ -1171,8 +1243,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-1bab9a804c91",
@@ -1186,8 +1259,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-0d0616fff390",
@@ -1201,8 +1275,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-cf600ff1c6a5",
@@ -1216,8 +1291,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-c5f3f5d2cc19",
@@ -1231,8 +1307,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-5c367d43c6af",
@@ -1246,8 +1323,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-4f96842b82eb",
@@ -1261,8 +1339,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-3c1255e08bba",
@@ -1276,8 +1355,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 43
     },
     {
       "id": "paper-caa2fd6e8c2b",
@@ -1291,8 +1371,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 56
     },
     {
       "id": "paper-2cc069ef8406",
@@ -1306,8 +1387,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 42
     },
     {
       "id": "paper-973b10d90c23",
@@ -1321,8 +1403,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-cfb14849ed79",
@@ -1336,8 +1419,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-219e744aa778",
@@ -1351,8 +1435,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-3b370857a68c",
@@ -1366,8 +1451,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-ce1a7799a86b",
@@ -1381,8 +1467,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-fb1574261874",
@@ -1396,8 +1483,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 61
     },
     {
       "id": "paper-311d386e13d6",
@@ -1411,8 +1499,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 99
     },
     {
       "id": "paper-18ca9b9202e3",
@@ -1426,8 +1515,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-bbd21732b8f0",
@@ -1441,8 +1531,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-76d6f2775897",
@@ -1456,8 +1547,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 47
     },
     {
       "id": "paper-c3e03a60b889",
@@ -1471,8 +1563,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 51
     },
     {
       "id": "paper-653980afd4c9",
@@ -1486,8 +1579,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-9f01a053ac82",
@@ -1501,8 +1595,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 45
     },
     {
       "id": "paper-9a2515d41678",
@@ -1516,8 +1611,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-5ac9790311dc",
@@ -1531,8 +1627,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-5978d9382255",
@@ -1546,8 +1643,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-0edeb5baf8d4",
@@ -1561,8 +1659,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 48
     },
     {
       "id": "paper-e9c1bd49e52e",
@@ -1576,8 +1675,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-2216c203a711",
@@ -1591,8 +1691,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-15ee9c1940da",
@@ -1606,8 +1707,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-ccee975d541f",
@@ -1621,8 +1723,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-ccc19feeb003",
@@ -1636,8 +1739,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 47
     },
     {
       "id": "paper-baee9df6b885",
@@ -1651,8 +1755,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-8cd5d281172c",
@@ -1666,8 +1771,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-b703ee90f7a3",
@@ -1681,8 +1787,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-be3ede4dd111",
@@ -1696,8 +1803,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-629a479fd7f0",
@@ -1711,8 +1819,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-a541e6bcf149",
@@ -1726,8 +1835,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 22
     },
     {
       "id": "paper-44bea0de2735",
@@ -1741,8 +1851,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 81
     },
     {
       "id": "paper-9ed067900a79",
@@ -1756,8 +1867,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 48
     },
     {
       "id": "paper-a484aeffb475",
@@ -1771,8 +1883,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-dae28fc578a2",
@@ -1786,8 +1899,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-1d4dd6bbdfa5",
@@ -1801,8 +1915,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-49fc3ad6564c",
@@ -1816,8 +1931,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-61e0ef3f4b97",
@@ -1831,8 +1947,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 46
     },
     {
       "id": "paper-5bca23f52a98",
@@ -1846,8 +1963,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 44
     },
     {
       "id": "paper-1d1320be77a5",
@@ -1861,8 +1979,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-5d749bff7abd",
@@ -1876,8 +1995,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-a929484a307d",
@@ -1891,8 +2011,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-a24f0e69a274",
@@ -1906,8 +2027,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-778c748c24d8",
@@ -1921,8 +2043,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-3ef86075d49c",
@@ -1936,8 +2059,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-619fa6a4ecf5",
@@ -1951,8 +2075,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 42
     },
     {
       "id": "paper-8ed3c963c17e",
@@ -1966,8 +2091,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-b67742a9ac4b",
@@ -1981,8 +2107,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-d05b56b79ff7",
@@ -1996,8 +2123,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-9e173b22d135",
@@ -2011,8 +2139,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-f5a0f46aebd0",
@@ -2026,8 +2155,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-f6d15382528d",
@@ -2041,8 +2171,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-53dba878883e",
@@ -2056,8 +2187,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 47
     },
     {
       "id": "paper-2a34a81904a9",
@@ -2071,8 +2203,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-e5900eba3c3e",
@@ -2086,8 +2219,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-0df69f865b1b",
@@ -2101,8 +2235,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-512da0de230f",
@@ -2116,8 +2251,9 @@
       "sourceFormat": "DOCX",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-c7fc37576d4a",
@@ -2131,8 +2267,9 @@
       "sourceFormat": "DOCX",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 12
     },
     {
       "id": "paper-c558a3032608",
@@ -2146,8 +2283,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 50
     },
     {
       "id": "paper-940472f114e3",
@@ -2161,8 +2299,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-dea6be952900",
@@ -2176,8 +2315,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-982b21f3d03b",
@@ -2191,8 +2331,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-e841b3da2fc5",
@@ -2206,8 +2347,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 21
     },
     {
       "id": "paper-dd9d4128147b",
@@ -2220,8 +2362,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 22
     },
     {
       "id": "paper-609e6469ed14",
@@ -2234,8 +2377,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 74
     },
     {
       "id": "paper-51fb86667752",
@@ -2248,8 +2392,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     },
     {
       "id": "paper-75781164d980",
@@ -2262,8 +2407,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-757efa77c0e6",
@@ -2276,8 +2422,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-8d8e6d9bff25",
@@ -2290,8 +2437,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     },
     {
       "id": "paper-d1f66f411f5f",
@@ -2304,8 +2452,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-32933d7f5779",
@@ -2318,8 +2467,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     },
     {
       "id": "paper-60171560985c",
@@ -2332,8 +2482,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-fd4b284cf138",
@@ -2346,8 +2497,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-ed6b394b7fe1",
@@ -2362,8 +2514,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-00f833f52f29",
@@ -2378,8 +2531,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-7b9b44cad1ad",
@@ -2394,8 +2548,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-0167741699b2",
@@ -2410,8 +2565,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-03b81c569ccb",
@@ -2426,8 +2582,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-e7fef5183123",
@@ -2442,8 +2599,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-85dc66750bbe",
@@ -2458,8 +2616,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-a0839e71791b",
@@ -2474,8 +2633,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-673c69c53f17",
@@ -2488,8 +2648,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 33
     },
     {
       "id": "paper-f61908515c40",
@@ -2504,8 +2665,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 23
     },
     {
       "id": "paper-e9db6b613fd2",
@@ -2518,8 +2680,9 @@
       "sourceFormat": "DOCX",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-a52108b456c1",
@@ -2532,8 +2695,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-e7290f5312a1",
@@ -2546,8 +2710,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 33
     },
     {
       "id": "paper-0d40e7e25621",
@@ -2560,8 +2725,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-bb7a90b1173a",
@@ -2574,8 +2740,9 @@
       "sourceFormat": "DOCX",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-56ff1372c869",
@@ -2588,8 +2755,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 53
     },
     {
       "id": "paper-61f81661a231",
@@ -2602,8 +2770,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 46
     },
     {
       "id": "paper-e825f7701520",
@@ -2616,8 +2785,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 81
     },
     {
       "id": "paper-8a1977edf59e",
@@ -2631,8 +2801,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-fc050f91b629",
@@ -2645,8 +2816,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-964043ab9b77",
@@ -2659,8 +2831,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 44
     },
     {
       "id": "paper-5dfaeda08c7a",
@@ -2673,8 +2846,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 40
     },
     {
       "id": "paper-07d1e1cbe741",
@@ -2689,8 +2863,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-0fb757adb386",
@@ -2703,8 +2878,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-19501f9050ec",
@@ -2719,8 +2895,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 51
     },
     {
       "id": "paper-b642ac2edd75",
@@ -2733,8 +2910,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 33
     },
     {
       "id": "paper-35dbe057f8c9",
@@ -2747,8 +2925,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-437f53bce315",
@@ -2762,8 +2941,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-34418bfd874d",
@@ -2776,8 +2956,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-bb45d557e50f",
@@ -2790,8 +2971,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-08fc89cf482a",
@@ -2805,8 +2987,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-acc4db5051b6",
@@ -2820,8 +3003,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-4a47722028b1",
@@ -2835,8 +3019,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 36
     },
     {
       "id": "paper-5136e21a45f3",
@@ -2850,8 +3035,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-9abbeca89538",
@@ -2865,8 +3051,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-44fb0fb576fc",
@@ -2881,8 +3068,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 41
     },
     {
       "id": "paper-a4b9d1dfd8df",
@@ -2897,8 +3085,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 34
     },
     {
       "id": "paper-6488b9cf4594",
@@ -2913,8 +3102,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-d7300d212c01",
@@ -2929,8 +3119,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-5a7a7a476440",
@@ -2944,8 +3135,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-3ec8e62756aa",
@@ -2959,8 +3151,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-8265cb5153d9",
@@ -2974,8 +3167,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-533be3e4580a",
@@ -2989,8 +3183,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-46f0a289fa09",
@@ -3004,8 +3199,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 21
     },
     {
       "id": "paper-62ea9d50931e",
@@ -3019,8 +3215,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-eaa7a8b18f0e",
@@ -3034,8 +3231,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-d9efc9d5a440",
@@ -3049,8 +3247,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 21
     },
     {
       "id": "paper-4871e0f25294",
@@ -3063,8 +3262,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-41fb83696bf0",
@@ -3077,8 +3277,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 33
     },
     {
       "id": "paper-9b4c42db2a52",
@@ -3092,8 +3293,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-23ce1766ecf6",
@@ -3107,8 +3309,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-d9fc1aa8e809",
@@ -3122,8 +3325,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 42
     },
     {
       "id": "paper-351fa0241c41",
@@ -3137,8 +3341,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-dd63c5cfdd0e",
@@ -3152,8 +3357,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-5d3f17a5ab16",
@@ -3167,8 +3373,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-5a6543c62771",
@@ -3181,8 +3388,9 @@
       "sourceFormat": "DOC",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 22
     },
     {
       "id": "paper-5d69e2306f7a",
@@ -3196,8 +3404,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-8e8a2d587390",
@@ -3211,8 +3420,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 37
     },
     {
       "id": "paper-3d9746a9b08e",
@@ -3226,8 +3436,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-f154ae75dc0e",
@@ -3241,8 +3452,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-034a049640c7",
@@ -3256,8 +3468,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-67da49486c2b",
@@ -3271,8 +3484,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-10a138f7981e",
@@ -3286,8 +3500,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 13
     },
     {
       "id": "paper-fd7278cf55a9",
@@ -3301,8 +3516,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 100
     },
     {
       "id": "paper-3395f02eb374",
@@ -3316,8 +3532,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 21
     },
     {
       "id": "paper-a0932eeb711b",
@@ -3331,8 +3548,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-029ff968ace6",
@@ -3346,8 +3564,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-b575a4f94fcb",
@@ -3361,8 +3580,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-b199fdecd988",
@@ -3376,8 +3596,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-71b988fa8adf",
@@ -3391,8 +3612,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-be29591eadc6",
@@ -3406,8 +3628,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-40df26e4a9c6",
@@ -3421,8 +3644,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-30f134f25b5a",
@@ -3436,8 +3660,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-8a6722fb10bd",
@@ -3451,8 +3676,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 32
     },
     {
       "id": "paper-f8f2d863eaeb",
@@ -3466,8 +3692,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-cb009b350e81",
@@ -3481,8 +3708,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-3d45095086ed",
@@ -3496,8 +3724,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-60f73ce92844",
@@ -3511,8 +3740,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 21
     },
     {
       "id": "paper-a47a27766536",
@@ -3526,8 +3756,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-bbdf5e4c6638",
@@ -3541,8 +3772,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-d6d14e0658a9",
@@ -3556,8 +3788,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-c726e2fea3ef",
@@ -3571,8 +3804,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-20d3b1e09713",
@@ -3586,8 +3820,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-6b237a5b12e6",
@@ -3601,8 +3836,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-703baa978759",
@@ -3616,8 +3852,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-e5086e6eceb3",
@@ -3631,8 +3868,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-73ccd02500bb",
@@ -3646,8 +3884,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 23
     },
     {
       "id": "paper-031e9fa9fd9d",
@@ -3661,8 +3900,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-2452a1c3dcb7",
@@ -3676,8 +3916,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 38
     },
     {
       "id": "paper-c43d7f6aa9b8",
@@ -3691,8 +3932,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-10d21d93d0e5",
@@ -3706,8 +3948,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-af574891bfdb",
@@ -3721,8 +3964,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-e32eff516153",
@@ -3736,8 +3980,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-62ed959fbc2d",
@@ -3751,8 +3996,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-a146c1a52097",
@@ -3766,8 +4012,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-c2b3c8645df9",
@@ -3781,8 +4028,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-35c3731bcb5b",
@@ -3796,8 +4044,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-632f466ac37e",
@@ -3811,8 +4060,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-acb4a746db17",
@@ -3826,8 +4076,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-9ec39974f905",
@@ -3841,8 +4092,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 41
     },
     {
       "id": "paper-d31313b14951",
@@ -3856,8 +4108,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 43
     },
     {
       "id": "paper-397047edefbc",
@@ -3871,8 +4124,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 35
     },
     {
       "id": "paper-69ec49bad6a5",
@@ -3886,8 +4140,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-fdf9949efce9",
@@ -3901,8 +4156,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-8f81d9575102",
@@ -3916,8 +4172,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-86c5b98d8934",
@@ -3931,8 +4188,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-b467c83c35ef",
@@ -3946,8 +4204,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-dee2e385644c",
@@ -3961,8 +4220,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-b83b7634c4f6",
@@ -3976,8 +4236,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-ca45b1cf6521",
@@ -3991,8 +4252,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-d253a613ddc6",
@@ -4006,8 +4268,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-26a20534fa48",
@@ -4021,8 +4284,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 34
     },
     {
       "id": "paper-489d6b93ab78",
@@ -4036,8 +4300,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 39
     },
     {
       "id": "paper-414db9696d96",
@@ -4051,8 +4316,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-81cc4085f930",
@@ -4066,8 +4332,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-ed14e84a7076",
@@ -4081,8 +4348,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 13
     },
     {
       "id": "paper-5dc120f273dd",
@@ -4096,8 +4364,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 31
     },
     {
       "id": "paper-d41022763a77",
@@ -4111,8 +4380,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 12
     },
     {
       "id": "paper-9c7d60928404",
@@ -4126,8 +4396,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-a4f73d93e69a",
@@ -4141,8 +4412,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-a520c8b052d7",
@@ -4156,8 +4428,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 27
     },
     {
       "id": "paper-279fd12dd29d",
@@ -4171,8 +4444,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 59
     },
     {
       "id": "paper-05ddc4e0a6ca",
@@ -4186,8 +4460,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-3d489f072ba2",
@@ -4201,8 +4476,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 41
     },
     {
       "id": "paper-4e6b19ff9b23",
@@ -4216,8 +4492,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-14283d82d6e4",
@@ -4231,8 +4508,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-4a218fce21d5",
@@ -4246,8 +4524,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-036f84c9b013",
@@ -4261,8 +4540,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-6dbc5d18052b",
@@ -4276,8 +4556,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-e25854a6e6d6",
@@ -4291,8 +4572,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-63efe9c77a37",
@@ -4306,8 +4588,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-f1ec0a03bea2",
@@ -4321,8 +4604,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-16e300285405",
@@ -4336,8 +4620,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-f89e3d1ce960",
@@ -4351,8 +4636,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-0dce40034410",
@@ -4366,8 +4652,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-2eae4589d1e7",
@@ -4381,8 +4668,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-78a72d6f7ec1",
@@ -4396,8 +4684,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-d239f93b6963",
@@ -4411,8 +4700,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-8fa630506f99",
@@ -4426,8 +4716,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-b2517612ed9e",
@@ -4441,8 +4732,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 18
     },
     {
       "id": "paper-1f7d113d12e8",
@@ -4456,8 +4748,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-cea87edc9167",
@@ -4471,8 +4764,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 15
     },
     {
       "id": "paper-2e2bc8c30c04",
@@ -4486,8 +4780,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-24c55b87f3f1",
@@ -4501,8 +4796,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 26
     },
     {
       "id": "paper-b6f4482c7e1e",
@@ -4516,8 +4812,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-5011c96ac062",
@@ -4531,8 +4828,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 20
     },
     {
       "id": "paper-8887d0f81478",
@@ -4546,8 +4844,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-7f0247b586c9",
@@ -4561,8 +4860,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-4a22c6095314",
@@ -4576,8 +4876,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-34e57a752adf",
@@ -4591,8 +4892,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-5b9d617af469",
@@ -4606,8 +4908,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 24
     },
     {
       "id": "paper-648e015d4641",
@@ -4621,8 +4924,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 29
     },
     {
       "id": "paper-fb426ae02079",
@@ -4636,8 +4940,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-cc6305a21f86",
@@ -4651,8 +4956,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-304964f5fbaf",
@@ -4666,8 +4972,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 25
     },
     {
       "id": "paper-fac29e26b425",
@@ -4681,8 +4988,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 17
     },
     {
       "id": "paper-376279513e22",
@@ -4696,8 +5004,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 22
     },
     {
       "id": "paper-46a622cd004d",
@@ -4711,8 +5020,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 30
     },
     {
       "id": "paper-142480aaace4",
@@ -4726,8 +5036,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 16
     },
     {
       "id": "paper-4bb4a036fb80",
@@ -4741,8 +5052,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 19
     },
     {
       "id": "paper-2fa22835c320",
@@ -4756,8 +5068,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-4361f435b3b8",
@@ -4771,8 +5084,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-05ae6c382dca",
@@ -4786,8 +5100,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-fb092b64d3cd",
@@ -4801,8 +5116,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-c12c243bd48d",
@@ -4816,8 +5132,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-da9934147762",
@@ -4831,8 +5148,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-5be980796de0",
@@ -4846,8 +5164,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-df0cc4a65000",
@@ -4861,8 +5180,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-876be4273a6f",
@@ -4876,8 +5196,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-06ff210e0869",
@@ -4891,8 +5212,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-7ae35ad35868",
@@ -4906,8 +5228,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-48e0afd82704",
@@ -4921,8 +5244,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-7e56aee2930e",
@@ -4936,8 +5260,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-4140e77d8a0e",
@@ -4951,8 +5276,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-4b326de6970b",
@@ -4966,8 +5292,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-54884b17011a",
@@ -4981,8 +5308,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-31196f28bf26",
@@ -4996,8 +5324,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-048e39daa146",
@@ -5011,8 +5340,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-b1e4240fb971",
@@ -5026,8 +5356,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-69cf8ce1fab7",
@@ -5041,8 +5372,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-b5e42a8d7f98",
@@ -5056,8 +5388,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-25f76d230a3a",
@@ -5071,8 +5404,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-e91074269126",
@@ -5086,8 +5420,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-5920e532ecf4",
@@ -5101,8 +5436,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-d0f4fb4e8bea",
@@ -5116,8 +5452,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-e0a68f061083",
@@ -5131,8 +5468,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 14
     },
     {
       "id": "paper-bac65ff76951",
@@ -5146,8 +5484,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-a7b96b266da9",
@@ -5161,8 +5500,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-ce03535fbd66",
@@ -5176,8 +5516,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-f151a4a76a07",
@@ -5191,8 +5532,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-93e90bd8b827",
@@ -5206,8 +5548,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-db7db5b3a84b",
@@ -5221,8 +5564,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-123dbce0cfd9",
@@ -5236,8 +5580,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-63e85541f15d",
@@ -5251,8 +5596,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-8674542986c7",
@@ -5266,8 +5612,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-6eface9fb7fa",
@@ -5281,8 +5628,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-0c344c4cc792",
@@ -5296,8 +5644,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-70d246542104",
@@ -5311,8 +5660,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-4a1753ebade0",
@@ -5326,8 +5676,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-b3d62eb89e16",
@@ -5341,8 +5692,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-3ebcfc6998c8",
@@ -5356,8 +5708,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-9fff0d4462c0",
@@ -5371,8 +5724,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-cd480456d642",
@@ -5386,8 +5740,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-b722cf200426",
@@ -5401,8 +5756,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-563be0bf31ad",
@@ -5416,8 +5772,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-3d9d6476a9fa",
@@ -5431,8 +5788,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-33435f2c38d6",
@@ -5446,8 +5804,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-1ccf58e03560",
@@ -5461,8 +5820,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-cf0a2ffb7cd4",
@@ -5476,8 +5836,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-76f398b99f04",
@@ -5491,8 +5852,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-8836b873d442",
@@ -5506,8 +5868,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-9fe32be7a8d2",
@@ -5521,8 +5884,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-d002ec9d1250",
@@ -5536,8 +5900,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-ea9d23705d6a",
@@ -5551,8 +5916,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-27d0cdc2dd15",
@@ -5566,8 +5932,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-c35854dd3651",
@@ -5581,8 +5948,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-66305d0ebab4",
@@ -5596,8 +5964,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-5b0f143f0a61",
@@ -5611,8 +5980,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-e86a04b9b4bb",
@@ -5626,8 +5996,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-705ed3c18354",
@@ -5641,8 +6012,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-2bb0d2441433",
@@ -5656,8 +6028,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-fe809b8e1ff1",
@@ -5671,8 +6044,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-64177427735a",
@@ -5686,8 +6060,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-62879ed4e01e",
@@ -5701,8 +6076,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-dda0d874df29",
@@ -5716,8 +6092,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-ca811261821f",
@@ -5731,8 +6108,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-473cceae36f8",
@@ -5746,8 +6124,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-10fde40d3aa0",
@@ -5761,8 +6140,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 12
     },
     {
       "id": "paper-0a642c1a1e50",
@@ -5776,8 +6156,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 12
     },
     {
       "id": "paper-3d2ef319b8c9",
@@ -5791,8 +6172,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-2d1fd8ab0ea1",
@@ -5806,8 +6188,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-674526a74fdf",
@@ -5821,8 +6204,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-4fb2c1e897bb",
@@ -5836,8 +6220,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-e0f6eb4f2af1",
@@ -5851,8 +6236,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-22199b5ceb7d",
@@ -5866,8 +6252,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-82df7d1c073f",
@@ -5881,8 +6268,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-d4d3661fcc9f",
@@ -5896,8 +6284,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-86c681c8bc7f",
@@ -5911,8 +6300,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-0e95cc857e6e",
@@ -5926,8 +6316,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-dd65538da5ad",
@@ -5941,8 +6332,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-bd2fa4582a12",
@@ -5956,8 +6348,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-8dddb92703b0",
@@ -5971,8 +6364,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-367f557d8151",
@@ -5986,8 +6380,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-bba5939e3a20",
@@ -6001,8 +6396,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-fe89b2a242d0",
@@ -6016,8 +6412,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-ae5c5d96ed11",
@@ -6031,8 +6428,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-093fc26658bc",
@@ -6046,8 +6444,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-eebe3aacf24f",
@@ -6061,8 +6460,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-6ac13a3ddf8f",
@@ -6076,8 +6476,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-5818558564e7",
@@ -6091,8 +6492,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-0c3b674809fe",
@@ -6106,8 +6508,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-71bc6acb7feb",
@@ -6121,8 +6524,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-5d86fe444a38",
@@ -6136,8 +6540,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-a4540f23bdf4",
@@ -6151,8 +6556,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-1a38fc7f0f41",
@@ -6166,8 +6572,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-0fddd38c4d18",
@@ -6181,8 +6588,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-88aea754ab69",
@@ -6196,8 +6604,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-ed1073d46d5f",
@@ -6211,8 +6620,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-bfd78ae075da",
@@ -6226,8 +6636,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-e2828ac28512",
@@ -6241,8 +6652,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-e1b7d800b50c",
@@ -6256,8 +6668,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-4c5079617607",
@@ -6271,8 +6684,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-1d2346c2c4f6",
@@ -6286,8 +6700,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-26d8cdd3905d",
@@ -6301,8 +6716,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-6e6618d76309",
@@ -6316,8 +6732,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-9150ecfaf45e",
@@ -6331,8 +6748,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-becc24f326cf",
@@ -6346,8 +6764,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-ed1556b65afb",
@@ -6361,8 +6780,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-63be0383bccb",
@@ -6376,8 +6796,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-62fed5b78fff",
@@ -6391,8 +6812,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-f739bce52f56",
@@ -6406,8 +6828,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-31ee179b4865",
@@ -6421,8 +6844,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-db8c6de1d6f7",
@@ -6436,8 +6860,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-3bf52c5c0797",
@@ -6451,8 +6876,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-1b81605c2536",
@@ -6466,8 +6892,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-3771b122a292",
@@ -6481,8 +6908,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-ab84dc379daa",
@@ -6496,8 +6924,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-ccba10278ad6",
@@ -6511,8 +6940,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-5eb2794e17f3",
@@ -6526,8 +6956,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-470821162b6b",
@@ -6541,8 +6972,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-a9de7b188f2a",
@@ -6556,8 +6988,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-a170b4585e3f",
@@ -6571,8 +7004,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-ea3b3fb03407",
@@ -6586,8 +7020,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-bd50a828307e",
@@ -6601,8 +7036,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-724fb919fdb2",
@@ -6616,8 +7052,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-dc3680baf200",
@@ -6631,8 +7068,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-63fdab6977ac",
@@ -6646,8 +7084,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-deba1eb63106",
@@ -6661,8 +7100,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-8f9ada3b083e",
@@ -6676,8 +7116,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-3389bb8940f7",
@@ -6691,8 +7132,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-99acb7762896",
@@ -6706,8 +7148,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-f21fbe1befe1",
@@ -6721,8 +7164,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-b783611ea13e",
@@ -6736,8 +7180,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-dc109b6894c0",
@@ -6751,8 +7196,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-aa945e5b1593",
@@ -6766,8 +7212,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-6ee8fa98d3c9",
@@ -6781,8 +7228,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-8901927cc942",
@@ -6796,8 +7244,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-bdd1d44707c1",
@@ -6811,8 +7260,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-af4e189a0208",
@@ -6826,8 +7276,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-7a6a5c9cd24f",
@@ -6841,8 +7292,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-19142a265f16",
@@ -6856,8 +7308,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-9b220c49c411",
@@ -6871,8 +7324,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-b5fc610df034",
@@ -6886,8 +7340,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-a5b95e66fbc7",
@@ -6901,8 +7356,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-2612ecf82c58",
@@ -6916,8 +7372,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-ca8ff13b6ffc",
@@ -6931,8 +7388,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     },
     {
       "id": "paper-ec1c4401baac",
@@ -6946,8 +7404,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-e659acb14bf4",
@@ -6961,8 +7420,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-710c1992ae86",
@@ -6976,8 +7436,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-7a5c92f809b5",
@@ -6991,8 +7452,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-81e47a4bdb1d",
@@ -7006,8 +7468,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-add5bb8ecd17",
@@ -7021,8 +7484,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-756f9d5ca792",
@@ -7036,8 +7500,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-f4b027ccc84b",
@@ -7051,8 +7516,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-70d5cb89533c",
@@ -7066,8 +7532,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-8903f6d4ecb5",
@@ -7081,8 +7548,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-7b990118595e",
@@ -7096,8 +7564,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-81490f0d3b76",
@@ -7111,8 +7580,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-fd1d570fcbf2",
@@ -7126,8 +7596,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-99d324a4bf86",
@@ -7141,8 +7612,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-c587b6e79e6c",
@@ -7156,8 +7628,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-b6df6678622e",
@@ -7171,8 +7644,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-c4d89383a1fa",
@@ -7186,8 +7660,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-7be2e88b82ff",
@@ -7201,8 +7676,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-7a51e884f4ad",
@@ -7216,8 +7692,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-f09af9f9e3dd",
@@ -7231,8 +7708,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-eca014b1f4ab",
@@ -7246,8 +7724,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-ddfab005d76a",
@@ -7261,8 +7740,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-485b40d2f016",
@@ -7276,8 +7756,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-3adcfeda6072",
@@ -7291,8 +7772,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-3f96d098472f",
@@ -7306,8 +7788,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-9aa610daf825",
@@ -7321,8 +7804,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-ff0f9a3701cc",
@@ -7336,8 +7820,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 11
     },
     {
       "id": "paper-78e235d34e66",
@@ -7351,8 +7836,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-29d5c960df2c",
@@ -7366,8 +7852,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-00bee1a9590d",
@@ -7381,8 +7868,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-551de805cc08",
@@ -7396,8 +7884,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 7
     },
     {
       "id": "paper-88b0d91a13f9",
@@ -7411,8 +7900,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 8
     },
     {
       "id": "paper-74890aab56dd",
@@ -7426,8 +7916,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-559f3466f0bb",
@@ -7441,8 +7932,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-fe79f0bbdfeb",
@@ -7456,8 +7948,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-8510d0ca001c",
@@ -7471,8 +7964,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-02025492e473",
@@ -7486,8 +7980,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-dcfe0ad08bf4",
@@ -7501,8 +7996,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-a5d6c5fe0ce9",
@@ -7516,8 +8012,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-d7371371dab2",
@@ -7531,8 +8028,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-c6e82901408b",
@@ -7546,8 +8044,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-93c5cb5ddf4b",
@@ -7561,8 +8060,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-8258f5697196",
@@ -7576,8 +8076,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-75f450cbbfa4",
@@ -7591,8 +8092,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-8bc8e163c932",
@@ -7606,8 +8108,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 10
     },
     {
       "id": "paper-5d775d6d65ca",
@@ -7621,8 +8124,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 4
     },
     {
       "id": "paper-0b77684d5f2c",
@@ -7636,8 +8140,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-e50d438daeb4",
@@ -7651,8 +8156,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-5d348fd227f0",
@@ -7666,8 +8172,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-b0fd47cd6932",
@@ -7681,8 +8188,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-785c40dbbca4",
@@ -7695,8 +8203,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 56
     },
     {
       "id": "paper-f91a14657d41",
@@ -7710,8 +8219,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 28
     },
     {
       "id": "paper-b97a45a8aa0f",
@@ -7725,8 +8235,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-8ad62f64a19a",
@@ -7740,8 +8251,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-15b8720d0936",
@@ -7755,8 +8267,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-53329bf14714",
@@ -7770,8 +8283,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-26769ac8cd2b",
@@ -7785,8 +8299,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 9
     },
     {
       "id": "paper-cfcc0137f442",
@@ -7800,8 +8315,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 2
     },
     {
       "id": "paper-ccdcffe37b51",
@@ -7815,8 +8331,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 5
     },
     {
       "id": "paper-a280f97f4209",
@@ -7830,8 +8347,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 3
     },
     {
       "id": "paper-a1d01ec6fcca",
@@ -7845,8 +8363,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 6
     },
     {
       "id": "paper-48a4a8fa9e3d",
@@ -7860,8 +8379,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     },
     {
       "id": "paper-9a786a32d84e",
@@ -7875,8 +8395,9 @@
       "sourceFormat": "PDF",
       "summary": "历年优秀论文全文条目，可在站内只读查看，不提供原文下载。",
       "collection": "1992—2025 数学建模国赛优秀论文汇总",
-      "availability": "待校验",
-      "viewerAvailable": false
+      "availability": "在线只读",
+      "viewerAvailable": true,
+      "pageCount": 1
     }
   ]
 }

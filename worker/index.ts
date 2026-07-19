@@ -6,7 +6,6 @@ interface Env {
   ASSETS: Fetcher;
   DB: D1Database;
   PAPERS: R2Bucket;
-  PAPER_UPLOAD_TOKEN?: string;
   IMAGES: {
     input(stream: ReadableStream): {
       transform(options: Record<string, unknown>): {
@@ -34,11 +33,6 @@ const worker = {
     const paperMatch = url.pathname.match(/^\/paper-content\/(paper-[a-z0-9-]+)$/);
     if (paperMatch) return servePaper(request, env.PAPERS, paperMatch[1]);
 
-    if (url.pathname === "/paper-status") return paperUploadStatus(request, env.PAPERS);
-
-    const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)(?:\/(.*))?$/);
-    if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1], uploadMatch[2] ?? "");
-
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
       return handleImageOptimization(request, {
@@ -53,39 +47,6 @@ const worker = {
     return handler.fetch(request, env, ctx);
   },
 };
-
-const EXPECTED_PAPER_MANIFEST_DIGEST = "557c0b4e38cf70dd83ea009f76ad48ed9c7d58a1d7f85a50bc49049dee9088ed";
-
-async function paperUploadStatus(request: Request, bucket: R2Bucket) {
-  if (request.method !== "GET") return new Response("Method not allowed", { status: 405 });
-  let cursor: string | undefined;
-  let count = 0;
-  let bytes = 0;
-  const records: Array<{ key: string; size: number; sha256: string }> = [];
-  do {
-    const page = await bucket.list({ prefix: "papers/", cursor, include: ["customMetadata"] });
-    count += page.objects.length;
-    bytes += page.objects.reduce((sum, object) => sum + object.size, 0);
-    records.push(...page.objects.map((object) => ({
-      key: object.key,
-      size: object.size,
-      sha256: object.customMetadata?.sha256 ?? "",
-    })));
-    cursor = page.truncated ? page.cursor : undefined;
-  } while (cursor);
-  records.sort((a, b) => a.key.localeCompare(b.key));
-  const digestBytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(JSON.stringify(records)));
-  const digest = Array.from(new Uint8Array(digestBytes), (byte) => byte.toString(16).padStart(2, "0")).join("");
-  const verified = count === 521 && digest === EXPECTED_PAPER_MANIFEST_DIGEST;
-  const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>论文导入状态</title></head><body><main><h1>论文导入状态</h1><p id="paper-count">${count} / 521</p><p>${bytes} bytes</p><p id="paper-integrity">${verified ? "完整性校验通过" : "完整性校验未通过"}</p></main></body></html>`;
-  return new Response(html, {
-    headers: {
-      "content-type": "text/html; charset=utf-8",
-      "cache-control": "no-store",
-      "x-robots-tag": "noindex, noarchive, nosnippet",
-    },
-  });
-}
 
 async function servePaper(request: Request, bucket: R2Bucket, paperId: string) {
   if (request.method !== "GET" && request.method !== "HEAD") return new Response("Method not allowed", { status: 405 });
@@ -111,55 +72,6 @@ async function servePaper(request: Request, bucket: R2Bucket, paperId: string) {
     headers.set("Content-Length", String(object.size));
   }
   return new Response(request.method === "HEAD" ? null : object.body, { status, headers });
-}
-
-async function handlePaperUpload(request: Request, env: Env, paperId: string, action: string) {
-  const supplied = request.headers.get("authorization");
-  if (!env.PAPER_UPLOAD_TOKEN || supplied !== `Bearer ${env.PAPER_UPLOAD_TOKEN}`) return new Response("Unauthorized", { status: 401 });
-  const key = `papers/${paperId}.pdf`;
-  if (request.method === "HEAD" && !action) {
-    const object = await env.PAPERS.head(key);
-    if (!object) return new Response(null, { status: 404 });
-    return new Response(null, { headers: { "content-length": String(object.size), "x-paper-sha256": object.customMetadata?.sha256 ?? "" } });
-  }
-  if (request.method === "POST" && action === "multipart/start") {
-    const payload = await request.json<{ sha256: string }>();
-    const upload = await env.PAPERS.createMultipartUpload(key, {
-      httpMetadata: { contentType: "application/pdf", cacheControl: "no-store" },
-      customMetadata: { sha256: payload.sha256 ?? "" },
-    });
-    return Response.json({ uploadId: upload.uploadId });
-  }
-  const partMatch = action.match(/^multipart\/([^/]+)\/part\/(\d+)$/);
-  if (request.method === "PUT" && partMatch) {
-    const payload = await request.json<{ data: string }>();
-    if (!payload.data) return new Response("Missing part data", { status: 400 });
-    const binary = atob(payload.data);
-    const bytes = new Uint8Array(binary.length);
-    for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
-    const upload = env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(partMatch[1]));
-    const part = await upload.uploadPart(Number(partMatch[2]), bytes);
-    return Response.json(part);
-  }
-  const completeMatch = action.match(/^multipart\/([^/]+)\/complete$/);
-  if (request.method === "POST" && completeMatch) {
-    const payload = await request.json<{ parts: R2UploadedPart[] }>();
-    const upload = env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(completeMatch[1]));
-    const object = await upload.complete(payload.parts);
-    return Response.json({ ok: true, size: object.size });
-  }
-  const abortMatch = action.match(/^multipart\/([^/]+)$/);
-  if (request.method === "DELETE" && abortMatch) {
-    await env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(abortMatch[1])).abort();
-    return new Response(null, { status: 204 });
-  }
-  if (request.method !== "PUT" || action || !request.body) return new Response("Method not allowed", { status: 405 });
-  const sha256 = request.headers.get("x-paper-sha256") ?? "";
-  await env.PAPERS.put(key, request.body, {
-    httpMetadata: { contentType: "application/pdf", cacheControl: "no-store" },
-    customMetadata: { sha256 },
-  });
-  return new Response(JSON.stringify({ ok: true, key }), { status: 201, headers: { "content-type": "application/json" } });
 }
 
 export default worker;

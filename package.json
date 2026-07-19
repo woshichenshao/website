@@ -13,7 +13,6 @@
     "papers:index": "node scripts/build-paper-index.mjs",
     "papers:prepare": "node scripts/prepare-papers.mjs",
     "papers:verify": "node scripts/verify-paper-library.mjs",
-    "papers:upload": "node scripts/upload-papers.mjs",
     "papers:finalize": "node scripts/finalize-paper-index.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .vinext --ignore-pattern work --ignore-pattern outputs --ignore-pattern 资料",
     "db:generate": "drizzle-kit generate"

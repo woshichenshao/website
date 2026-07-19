@@ -299,21 +299,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .paper-canvas-host { position: relative; min-height: 70vh; padding: 16px; overflow: auto; text-align: center; }
 .paper-canvas-host canvas { display: block; margin: 0 auto; background: white; box-shadow: 0 8px 30px rgba(0, 0, 0, .28); }
 .paper-status { position: absolute; inset: 20px; display: grid; place-content: center; margin: 0; color: #e4e8e5; font-size: 13px; }
-.import-page { min-height: 100vh; display: grid; place-items: center; padding: 40px; background: var(--paper-deep); }
-.import-panel { width: min(760px, 100%); padding: 42px; border-top: 4px solid var(--accent); background: var(--paper-light); box-shadow: 0 18px 50px rgba(25, 31, 28, .14); }
-.import-panel h1 { margin: 10px 0 14px; font-family: var(--serif); font-size: 42px; font-weight: 400; }
-.import-panel > p { color: var(--ink-muted); }
-.import-panel label { display: grid; gap: 8px; margin-top: 18px; color: var(--accent-dark); font-size: 12px; font-weight: 800; }
-.import-panel input { min-height: 46px; padding: 10px; border: 1px solid var(--rule); background: white; }
-.import-panel button { min-height: 46px; margin-top: 20px; padding: 0 20px; border: 0; background: var(--ink); color: white; cursor: pointer; font-weight: 800; }
-.import-panel button:disabled { cursor: not-allowed; opacity: .45; }
-.import-summary { display: flex; gap: 8px; align-items: baseline; margin-top: 18px; }
-.import-summary strong { color: var(--accent-dark); font-family: var(--serif); font-size: 34px; font-weight: 400; }
-.import-progress { margin-top: 22px; }
-.import-progress progress { width: 100%; }
-.import-progress p { color: var(--ink-muted); font-size: 12px; }
-.import-panel details { margin-top: 20px; color: var(--accent-dark); }
-.import-panel pre { max-height: 220px; overflow: auto; white-space: pre-wrap; font-size: 10px; }
 
 @media (max-width: 1000px) {
   .shell { width: min(100% - 48px, 1280px); }
