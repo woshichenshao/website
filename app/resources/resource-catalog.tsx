@@ -10,6 +10,7 @@ export function ResourceCatalog({ resources }: { resources: ResourceRecord[] }) 
   const [year, setYear] = useState(all);
   const [category, setCategory] = useState(all);
   const [problemType, setProblemType] = useState(all);
+  const [limit, setLimit] = useState(40);
 
   const years = [...new Set(resources.flatMap((item) => item.year ? [item.year] : []))].sort((a, b) => b - a);
   const categories = [...new Set(resources.map((item) => item.category))];
@@ -24,26 +25,29 @@ export function ResourceCatalog({ resources }: { resources: ResourceRecord[] }) 
       && (problemType === all || item.problemType === problemType);
   });
 
-  const reset = () => { setQuery(""); setYear(all); setCategory(all); setProblemType(all); };
+  const visible = filtered.slice(0, limit);
+  const reset = () => { setQuery(""); setYear(all); setCategory(all); setProblemType(all); setLimit(40); };
+  const showPapers = () => { setQuery(""); setYear(all); setCategory("优秀论文"); setProblemType(all); setLimit(40); };
 
   return (
     <div className="catalog-shell">
       <div className="catalog-controls" role="search" aria-label="筛选数学建模资料">
-        <label className="search-field"><span>关键词</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="论文编号、模板、算法……" /></label>
-        <label><span>年份</span><select value={year} onChange={(event) => setYear(event.target.value)}><option>{all}</option>{years.map((item) => <option key={item}>{item}</option>)}</select></label>
-        <label><span>内容类型</span><select value={category} onChange={(event) => setCategory(event.target.value)}><option>{all}</option>{categories.map((item) => <option key={item}>{item}</option>)}</select></label>
-        <label><span>问题类型</span><select value={problemType} onChange={(event) => setProblemType(event.target.value)}><option>{all}</option>{problemTypes.map((item) => <option key={item}>{item}</option>)}</select></label>
+        <label className="search-field"><span>关键词</span><input value={query} onChange={(event) => { setQuery(event.target.value); setLimit(40); }} placeholder="论文编号、论文题目、算法……" /></label>
+        <label><span>年份</span><select value={year} onChange={(event) => { setYear(event.target.value); setLimit(40); }}><option>{all}</option>{years.map((item) => <option key={item}>{item}</option>)}</select></label>
+        <label><span>内容类型</span><select value={category} onChange={(event) => { setCategory(event.target.value); setLimit(40); }}><option>{all}</option>{categories.map((item) => <option key={item}>{item}</option>)}</select></label>
+        <label><span>问题类型</span><select value={problemType} onChange={(event) => { setProblemType(event.target.value); setLimit(40); }}><option>{all}</option>{problemTypes.map((item) => <option key={item}>{item}</option>)}</select></label>
       </div>
-      <div className="catalog-status" aria-live="polite"><p>找到 <strong>{filtered.length}</strong> 条资料</p><button type="button" onClick={reset}>清除筛选</button></div>
+      <div className="catalog-status" aria-live="polite"><p>找到 <strong>{filtered.length}</strong> 条资料，当前显示 {visible.length} 条</p><div><button type="button" onClick={showPapers}>只看优秀论文</button><button type="button" onClick={reset}>清除筛选</button></div></div>
       {filtered.length ? (
         <div className="resource-list">
-          {filtered.map((item) => (
+          {visible.map((item) => (
             <article key={item.id}>
               <div className="resource-year">{item.year ?? "通用"}</div>
-              <div className="resource-main"><div className="resource-tags"><span>{item.category}</span><span>{item.problemType}</span><span>{item.format}</span></div><h2>{item.title}</h2><p>{item.summary}</p><small>{item.collection}</small></div>
-              <div className="availability"><span>{item.availability}</span><p>{item.problem ? `${item.problem} 题` : "资料集合"}</p></div>
+              <div className="resource-main"><div className="resource-tags"><span>{item.category}</span>{item.paperCode ? <span>{item.paperCode}</span> : null}<span>{item.problemType}</span><span>{item.format}</span></div><h2>{item.title}</h2><p>{item.summary}</p><small>{item.collection}</small></div>
+              <div className="availability"><span>{item.availability}</span><p>{item.paperCode ?? (item.problem ? `${item.problem} 题` : "资料集合")}</p>{item.category === "优秀论文" ? <small>原文不可下载</small> : null}</div>
             </article>
           ))}
+          {visible.length < filtered.length ? <div className="load-more"><button type="button" onClick={() => setLimit((value) => value + 40)}>继续显示后 40 条</button><span>剩余 {filtered.length - visible.length} 条</span></div> : null}
         </div>
       ) : (
         <div className="empty-state"><strong>没有符合条件的资料</strong><p>减少一个筛选条件，或尝试搜索年份、论文编号和内容类型。</p><button type="button" onClick={reset}>查看全部资料</button></div>

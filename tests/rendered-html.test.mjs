@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 async function render(path = "/") {
@@ -48,9 +49,20 @@ test("renders the searchable resource index with privacy boundary", async () => 
   const html = await response.text();
   assert.match(html, /关键词/);
   assert.match(html, /1992 年全国大学生数学建模竞赛资料集/);
-  assert.match(html, /第一版不开放下载/);
-  assert.match(html, /不发布获奖名单中的个人信息/);
+  assert.match(html, /521(?:<!-- -->)? 篇优秀论文/);
+  assert.match(html, /2025 年国赛优秀论文 A066/);
+  assert.match(html, /原文不可下载/);
+  assert.match(html, /页面没有原文链接、下载按钮或本地文件路径/);
   assert.doesNotMatch(html, /D:\\website\\资料/);
+});
+
+test("paper index contains metadata only", async () => {
+  const raw = await readFile(new URL("../data/paper-index.json", import.meta.url), "utf8");
+  const index = JSON.parse(raw);
+  assert.equal(index.count, 521);
+  assert.equal(index.records.length, 521);
+  assert.match(index.policy, /不包含本地路径、文件链接、下载地址/);
+  assert.doesNotMatch(raw, /D:\\website|https?:\/\/|"href"|"download"|"localPath"/i);
 });
 
 test("keeps legacy article links readable", async () => {

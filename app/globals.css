@@ -219,6 +219,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .catalog-status { display: flex; justify-content: space-between; align-items: center; padding: 20px 4px; border-bottom: 2px solid var(--ink); }
 .catalog-status p { margin: 0; color: var(--ink-muted); font-size: 13px; }
 .catalog-status strong { color: var(--accent-dark); font-size: 18px; }
+.catalog-status > div { display: flex; gap: 18px; }
 .catalog-status button, .empty-state button { border: 0; background: none; color: var(--accent-dark); cursor: pointer; font-size: 12px; font-weight: 800; }
 .resource-list article { display: grid; grid-template-columns: 90px minmax(0, 1fr) 130px; gap: 28px; min-height: 170px; align-items: center; padding: 26px 4px; border-bottom: 1px solid var(--rule); }
 .resource-year { align-self: start; padding-top: 4px; color: var(--accent); font: 12px var(--mono); }
@@ -230,6 +231,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .availability { align-self: start; padding-top: 4px; text-align: right; }
 .availability span { color: var(--green); font-size: 11px; font-weight: 800; }
 .availability p { margin: 8px 0 0; color: var(--ink-muted); font-size: 11px; }
+.availability small { display: block; margin-top: 4px; color: var(--accent-dark); font-size: 10px; }
+.load-more { display: flex; align-items: center; justify-content: center; gap: 18px; padding: 32px 0; border-bottom: 1px solid var(--rule); }
+.load-more button { min-height: 42px; padding: 0 18px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper-light); cursor: pointer; font-size: 12px; font-weight: 700; }
+.load-more span { color: var(--ink-muted); font-size: 11px; }
 .empty-state { padding: 70px 20px; border-bottom: 1px solid var(--rule); text-align: center; }
 .empty-state strong { font-family: var(--serif); font-size: 25px; font-weight: 400; }
 .empty-state p { color: var(--ink-muted); }

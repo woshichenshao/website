@@ -1,3 +1,5 @@
+import paperIndex from "../data/paper-index.json";
+
 export type ModelingBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
@@ -43,7 +45,8 @@ export type ResourceRecord = {
   year?: number;
   problem?: string;
   problemType: "综合" | "评价" | "分类与聚类" | "预测" | "优化" | "机理" | "写作";
-  format: "PDF" | "DOCX" | "XLSX" | "MATLAB" | "合集";
+  format: "PDF" | "DOCX" | "XLSX" | "MATLAB" | "合集" | "图像集";
+  paperCode?: string;
   summary: string;
   collection: string;
   availability: "仅索引" | "原创摘要";
@@ -400,28 +403,12 @@ const annualCollections: ResourceRecord[] = Array.from({ length: 34 }, (_, index
   } satisfies ResourceRecord;
 });
 
-const selectedPapers = [
-  [2022, "A001"], [2022, "A171"], [2022, "B035"], [2022, "B086"], [2022, "C229"], [2022, "E014"],
-  [2025, "A066"], [2025, "A196"], [2025, "B060"], [2025, "C023"], [2025, "C132"], [2025, "D037"], [2025, "E030"],
-] as const;
-
-const selectedPaperRecords: ResourceRecord[] = selectedPapers.map(([year, code]) => ({
-  id: `paper-${year}-${code.toLowerCase()}`,
-  title: `${year} 年国赛优秀论文 ${code}`,
-  category: "优秀论文",
-  competition: "全国大学生数学建模竞赛",
-  year,
-  problem: code.slice(0, 1),
-  problemType: "综合",
-  format: "PDF",
-  summary: "已确认存在的优秀论文条目，用于后续原创拆解与方法索引。",
-  collection: "国赛优秀论文精选",
-  availability: "仅索引",
-}));
+const paperResources = paperIndex.records as unknown as ResourceRecord[];
+export const indexedPaperCount = paperIndex.count;
 
 export const resources: ResourceRecord[] = [
   ...annualCollections,
-  ...selectedPaperRecords,
+  ...paperResources,
   {
     id: "zero-to-competition-course",
     title: "数学建模·国赛零基础速成课讲义",
