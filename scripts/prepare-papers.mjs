@@ -11,6 +11,9 @@ const sourceManifestPath = join(workRoot, "source-manifest.json");
 const outputManifestPath = join(workRoot, "prepared-manifest.json");
 const python = process.env.CODEX_PYTHON ?? "C:\\Users\\狗熊岭第一控卫\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe";
 const pythonPath = join(workRoot, "pydeps");
+const popplerBin = process.env.CODEX_POPPLER_BIN ?? "C:\\Users\\狗熊岭第一控卫\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin";
+const pdfInfoExe = join(popplerBin, "pdfinfo.exe");
+const pdfToPpmExe = join(popplerBin, "pdftoppm.exe");
 
 if (!existsSync(sourceManifestPath)) throw new Error("请先运行 npm run papers:index");
 mkdirSync(preparedRoot, { recursive: true });
@@ -83,7 +86,7 @@ function run(command, args, label, extraEnv = {}) {
 }
 
 function pdfInfo(path) {
-  const result = spawnSync("pdfinfo", [path], { encoding: "utf8" });
+  const result = spawnSync(pdfInfoExe, [path], { encoding: "utf8" });
   if (result.status !== 0) throw new Error(`PDF 完整性检查失败：${path}\n${result.stderr}`);
   const pages = Number(result.stdout.match(/^Pages:\s+(\d+)/m)?.[1]);
   return { pages };
@@ -96,8 +99,8 @@ function renderCheck(path, id, pages, exhaustive) {
   const args = exhaustive
     ? ["-png", "-scale-to", "900", path, join(target, "page")]
     : ["-f", "1", "-l", "1", "-singlefile", "-png", "-scale-to", "900", path, join(target, "first")];
-  run("pdftoppm", args, `页面渲染检查 ${id}`);
-  if (!exhaustive && pages > 1) run("pdftoppm", ["-f", String(pages), "-l", String(pages), "-singlefile", "-png", "-scale-to", "900", path, join(target, "last")], `末页渲染检查 ${id}`);
+  run(pdfToPpmExe, args, `页面渲染检查 ${id}`);
+  if (!exhaustive && pages > 1) run(pdfToPpmExe, ["-f", String(pages), "-l", String(pages), "-singlefile", "-png", "-scale-to", "900", path, join(target, "last")], `末页渲染检查 ${id}`);
   const images = readdirSync(target).filter((name) => name.endsWith(".png"));
   const expected = exhaustive ? pages : Math.min(pages, 2);
   if (images.length !== expected || images.some((name) => statSync(join(target, name)).size < 1024)) {

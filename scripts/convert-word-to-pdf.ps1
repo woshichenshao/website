@@ -10,6 +10,19 @@ if (-not $jobs -or $jobs.Count -eq 0) {
   exit 0
 }
 
+function Print-DocumentToPdf {
+  param($Document, $Word, [string]$OutputPath)
+  $Word.ActivePrinter = 'Microsoft Print to PDF'
+  $missing = [Type]::Missing
+  $arguments = [object[]]@($false, $false, 0, $OutputPath, $missing, $missing, $missing, $missing, $missing, $missing, $true, $true, $missing, $missing, $missing, $missing, $missing, $missing)
+  [void]$Document.GetType().InvokeMember('PrintOut', [Reflection.BindingFlags]::InvokeMethod, $null, $Document, $arguments)
+  for ($attempt = 0; $attempt -lt 30; $attempt += 1) {
+    if ((Test-Path -LiteralPath $OutputPath) -and (Get-Item -LiteralPath $OutputPath).Length -gt 0) { return }
+    Start-Sleep -Milliseconds 500
+  }
+  throw 'PDF 打印超时'
+}
+
 $word = $null
 $converted = 0
 $failures = @()
@@ -22,12 +35,30 @@ try {
     try {
       $outputDirectory = Split-Path -Parent $job.output
       New-Item -ItemType Directory -Force -Path $outputDirectory | Out-Null
-      $document = $word.Documents.Open($job.source, $false, $true, $false)
+      $sourceExtension = [System.IO.Path]::GetExtension($job.source)
+      $localSource = Join-Path $outputDirectory "$($job.id)-source$sourceExtension"
+      Copy-Item -LiteralPath $job.source -Destination $localSource -Force
+      $document = $word.Documents.Open($localSource, $false, $true, $false)
       try {
         $document.ExportAsFixedFormat($job.output, 17, $false, 0, 0, 1, 99999, 0, $true, $true, 1, $true, $true, $false)
       }
       catch {
-        $document.SaveAs2($job.output, 17)
+        try {
+          $document.SaveAs2($job.output, 17)
+        }
+        catch {
+          $temporaryDocx = "$($job.output).docx"
+          $document.SaveAs2($temporaryDocx, 16)
+          $document.Close(0)
+          [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($document)
+          $document = $word.Documents.Open($temporaryDocx, $false, $true, $false)
+          try {
+            $document.ExportAsFixedFormat($job.output, 17, $false, 0, 0, 1, 99999, 0, $true, $true, 1, $true, $true, $false)
+          }
+          catch {
+            Print-DocumentToPdf -Document $document -Word $word -OutputPath $job.output
+          }
+        }
       }
       $converted += 1
     }

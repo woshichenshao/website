@@ -34,8 +34,8 @@ const worker = {
     const paperMatch = url.pathname.match(/^\/paper-content\/(paper-[a-z0-9-]+)$/);
     if (paperMatch) return servePaper(request, env.PAPERS, paperMatch[1]);
 
-    const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)$/);
-    if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1]);
+    const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)(?:\/(.*))?$/);
+    if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1], uploadMatch[2] ?? "");
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
@@ -78,16 +78,47 @@ async function servePaper(request: Request, bucket: R2Bucket, paperId: string) {
   return new Response(request.method === "HEAD" ? null : object.body, { status, headers });
 }
 
-async function handlePaperUpload(request: Request, env: Env, paperId: string) {
+async function handlePaperUpload(request: Request, env: Env, paperId: string, action: string) {
   const supplied = request.headers.get("authorization");
   if (!env.PAPER_UPLOAD_TOKEN || supplied !== `Bearer ${env.PAPER_UPLOAD_TOKEN}`) return new Response("Unauthorized", { status: 401 });
   const key = `papers/${paperId}.pdf`;
-  if (request.method === "HEAD") {
+  if (request.method === "HEAD" && !action) {
     const object = await env.PAPERS.head(key);
     if (!object) return new Response(null, { status: 404 });
     return new Response(null, { headers: { "content-length": String(object.size), "x-paper-sha256": object.customMetadata?.sha256 ?? "" } });
   }
-  if (request.method !== "PUT" || !request.body) return new Response("Method not allowed", { status: 405 });
+  if (request.method === "POST" && action === "multipart/start") {
+    const payload = await request.json<{ sha256: string }>();
+    const upload = await env.PAPERS.createMultipartUpload(key, {
+      httpMetadata: { contentType: "application/pdf", cacheControl: "no-store" },
+      customMetadata: { sha256: payload.sha256 ?? "" },
+    });
+    return Response.json({ uploadId: upload.uploadId });
+  }
+  const partMatch = action.match(/^multipart\/([^/]+)\/part\/(\d+)$/);
+  if (request.method === "PUT" && partMatch) {
+    const payload = await request.json<{ data: string }>();
+    if (!payload.data) return new Response("Missing part data", { status: 400 });
+    const binary = atob(payload.data);
+    const bytes = new Uint8Array(binary.length);
+    for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+    const upload = env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(partMatch[1]));
+    const part = await upload.uploadPart(Number(partMatch[2]), bytes);
+    return Response.json(part);
+  }
+  const completeMatch = action.match(/^multipart\/([^/]+)\/complete$/);
+  if (request.method === "POST" && completeMatch) {
+    const payload = await request.json<{ parts: R2UploadedPart[] }>();
+    const upload = env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(completeMatch[1]));
+    const object = await upload.complete(payload.parts);
+    return Response.json({ ok: true, size: object.size });
+  }
+  const abortMatch = action.match(/^multipart\/([^/]+)$/);
+  if (request.method === "DELETE" && abortMatch) {
+    await env.PAPERS.resumeMultipartUpload(key, decodeURIComponent(abortMatch[1])).abort();
+    return new Response(null, { status: 204 });
+  }
+  if (request.method !== "PUT" || action || !request.body) return new Response("Method not allowed", { status: 405 });
   const sha256 = request.headers.get("x-paper-sha256") ?? "";
   await env.PAPERS.put(key, request.body, {
     httpMetadata: { contentType: "application/pdf", cacheControl: "no-store" },

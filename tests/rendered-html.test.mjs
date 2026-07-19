@@ -43,7 +43,7 @@ test("renders guide and method detail pages", async () => {
   assert.match(await method.text(), /滚动验证/);
 });
 
-test("renders the searchable resource index with privacy boundary", async () => {
+test("renders the searchable resource index with read-only entries", async () => {
   const response = await render("/resources");
   assert.equal(response.status, 200);
   const html = await response.text();
@@ -51,18 +51,61 @@ test("renders the searchable resource index with privacy boundary", async () => 
   assert.match(html, /1992 年全国大学生数学建模竞赛资料集/);
   assert.match(html, /521(?:<!-- -->)? 篇优秀论文/);
   assert.match(html, /2025 年国赛优秀论文 A066/);
-  assert.match(html, /原文不可下载/);
-  assert.match(html, /页面没有原文链接、下载按钮或本地文件路径/);
+  assert.match(html, /在线阅读/);
+  assert.match(html, /不提供下载入口或公开存储地址/);
+  assert.match(html, /无法绝对阻止截图或技术抓取/);
   assert.doesNotMatch(html, /D:\\website\\资料/);
 });
 
-test("paper index contains metadata only", async () => {
+test("paper index exposes only verified viewer metadata", async () => {
   const raw = await readFile(new URL("../data/paper-index.json", import.meta.url), "utf8");
   const index = JSON.parse(raw);
   assert.equal(index.count, 521);
   assert.equal(index.records.length, 521);
-  assert.match(index.policy, /不包含本地路径、文件链接、下载地址/);
-  assert.doesNotMatch(raw, /D:\\website|https?:\/\/|"href"|"download"|"localPath"/i);
+  assert.equal(new Set(index.records.map((item) => item.id)).size, 521);
+  assert.ok(index.records.every((item) => item.viewerAvailable && item.pageCount > 0 && item.sourceFormat));
+  assert.match(index.policy, /不提供复制、打印、下载入口或公开存储地址/);
+  assert.doesNotMatch(raw, /D:\\website|https?:\/\/|"href"|"download"|"localPath"|"finalPath"|"objectKey"/i);
+});
+
+test("renders a paper in the Canvas-only reader", async () => {
+  const index = JSON.parse(await readFile(new URL("../data/paper-index.json", import.meta.url), "utf8"));
+  const paper = index.records[0];
+  const response = await render(`/papers/${paper.id}`);
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, new RegExp(paper.title));
+  assert.match(html, /上一页/);
+  assert.match(html, /适合宽度/);
+  assert.match(html, /在线只读阅读器/);
+  assert.doesNotMatch(html, /download=|textLayer|打印按钮|下载按钮/i);
+});
+
+test("streams same-origin paper ranges with restrictive headers", async () => {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("range-test", `${process.pid}-${Date.now()}`);
+  const { default: worker } = await import(workerUrl.href);
+  const body = new Uint8Array([37, 80, 68, 70]);
+  const response = await worker.fetch(new Request("http://localhost/paper-content/paper-demo", { headers: { range: "bytes=0-3" } }), {
+    PAPERS: {
+      async get(key, options) {
+        assert.equal(key, "papers/paper-demo.pdf");
+        assert.equal(options.range.get("range"), "bytes=0-3");
+        return {
+          body: new Blob([body]).stream(),
+          size: 100,
+          range: { offset: 0, length: 4 },
+          writeHttpMetadata() {},
+        };
+      },
+    },
+  }, { waitUntil() {}, passThroughOnException() {} });
+  assert.equal(response.status, 206);
+  assert.equal(response.headers.get("content-range"), "bytes 0-3/100");
+  assert.equal(response.headers.get("cache-control"), "no-store, private, max-age=0");
+  assert.equal(response.headers.get("x-robots-tag"), "noindex, noarchive, nosnippet");
+  assert.equal(response.headers.get("cross-origin-resource-policy"), "same-origin");
+  assert.deepEqual(new Uint8Array(await response.arrayBuffer()), body);
 });
 
 test("keeps legacy article links readable", async () => {
@@ -89,4 +132,6 @@ test("publishes all discoverability routes", async () => {
 test("returns not found for unknown dynamic content", async () => {
   const response = await render("/guides/does-not-exist");
   assert.equal(response.status, 404);
+  const paper = await render("/papers/paper-does-not-exist");
+  assert.equal(paper.status, 404);
 });
