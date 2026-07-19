@@ -34,7 +34,7 @@ const worker = {
     const paperMatch = url.pathname.match(/^\/paper-content\/(paper-[a-z0-9-]+)$/);
     if (paperMatch) return servePaper(request, env.PAPERS, paperMatch[1]);
 
-    if (url.pathname === "/paper-upload-status") return paperUploadStatus(request, env.PAPERS);
+    if (url.pathname === "/paper-status") return paperUploadStatus(request, env.PAPERS);
 
     const uploadMatch = url.pathname.match(/^\/_internal\/paper-upload\/(paper-[a-z0-9-]+)(?:\/(.*))?$/);
     if (uploadMatch) return handlePaperUpload(request, env, uploadMatch[1], uploadMatch[2] ?? "");
@@ -65,10 +65,15 @@ async function paperUploadStatus(request: Request, bucket: R2Bucket) {
     bytes += page.objects.reduce((sum, object) => sum + object.size, 0);
     cursor = page.truncated ? page.cursor : undefined;
   } while (cursor);
-  return Response.json(
-    { count, expected: 521, bytes, complete: count === 521 },
-    { headers: { "cache-control": "no-store", "x-robots-tag": "noindex, noarchive, nosnippet" } },
-  );
+  const complete = count === 521;
+  const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>论文导入状态</title></head><body><main><h1>论文导入状态</h1><p id="paper-count">${count} / 521</p><p>${bytes} bytes</p><p>${complete ? "全部对象已写入" : "导入进行中"}</p></main></body></html>`;
+  return new Response(html, {
+    headers: {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "no-store",
+      "x-robots-tag": "noindex, noarchive, nosnippet",
+    },
+  });
 }
 
 async function servePaper(request: Request, bucket: R2Bucket, paperId: string) {
