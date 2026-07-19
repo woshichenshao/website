@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-07-19T11:09:24.110Z",
+  "sourceLabel": "D:/website/资料",
+  "policy": "仅生成聚合统计；不记录公开文件路径，不修改源文件。",
+  "totals": {
+    "files": 23191,
+    "bytes": 11101829775,
+    "confirmedDuplicateGroups": 9650,
+    "confirmedDuplicateFiles": 9657,
+    "confirmedDuplicateBytes": 3688023754
+  },
+  "extensions": {
+    ".bmp": {
+      "files": 14399,
+      "bytes": 115361090
+    },
+    ".jpg": {
+      "files": 2157,
+      "bytes": 370269581
+    },
+    ".m": {
+      "files": 2050,
+      "bytes": 5260458
+    },
+    ".pdf": {
+      "files": 1672,
+      "bytes": 4081530537
+    },
+    ".png": {
+      "files": 318,
+      "bytes": 48434816
+    },
+    ".doc": {
+      "files": 315,
+      "bytes": 109209406
+    },
+    ".xlsx": {
+      "files": 259,
+      "bytes": 787921093
+    },
+    ".mat": {
+      "files": 240,
+      "bytes": 522596425
+    },
+    ".xls": {
+      "files": 227,
+      "bytes": 169660416
+    },
+    ".docx": {
+      "files": 218,
+      "bytes": 71435114
+    },
+    ".txt": {
+      "files": 207,
+      "bytes": 3505847
+    },
+    ".py": {
+      "files": 118,
+      "bytes": 690209
+    },
+    ".fig": {
+      "files": 112,
+      "bytes": 29118988
+    },
+    ".lg4": {
+      "files": 110,
+      "bytes": 711168
+    },
+    ".asv": {
+      "files": 69,
+      "bytes": 208759
+    },
+    ".csv": {
+      "files": 63,
+      "bytes": 1738927108
+    },
+    ".zip": {
+      "files": 49,
+      "bytes": 659480534
+    },
+    ".exe": {
+      "files": 47,
+      "bytes": 6691368
+    },
+    ".mp4": {
+      "files": 38,
+      "bytes": 70377085
+    },
+    ".html": {
+      "files": 38,
+      "bytes": 684766
+    },
+    ".rar": {
+      "files": 37,
+      "bytes": 1924822435
+    },
+    ".caj": {
+      "files": 34,
+      "bytes": 131531356
+    },
+    ".cpp": {
+      "files": 33,
+      "bytes": 325338
+    },
+    ".ppt": {
+      "files": 20,
+      "bytes": 27011076
+    },
+    "[none]": {
+      "files": 20,
+      "bytes": 3766743
+    },
+    ".wav": {
+      "files": 20,
+      "bytes": 1025300
+    },
+    ".tif": {
+      "files": 18,
+      "bytes": 119473728
+    },
+    ".c": {
+      "files": 17,
+      "bytes": 66198
+    },
+    ".pptx": {
+      "files": 17,
+      "bytes": 14515297
+    },
+    ".pdb": {
+      "files": 15,
+      "bytes": 3810304
+    },
+    ".obj": {
+      "files": 13,
+      "bytes": 190701
+    },
+    ".dwg": {
+      "files": 13,
+      "bytes": 621854
+    },
+    ".yuv": {
+      "files": 12,
+      "bytes": 30714624
+    },
+    ".h": {
+      "files": 10,
+      "bytes": 27312
+    },
+    ".gif": {
+      "files": 10,
+      "bytes": 11114
+    },
+    ".dll": {
+      "files": 10,
+      "bytes": 123392
+    },
+    ".mexmaci": {
+      "files": 10,
+      "bytes": 174144
+    },
+    ".dsp": {
+      "files": 9,
+      "bytes": 34015
+    },
+    ".dsw": {
+      "files": 9,
+      "bytes": 4878
+    },
+    ".ncb": {
+      "files": 9,
+      "bytes": 435200
+    },
+    ".opt": {
+      "files": 9,
+      "bytes": 481792
+    },
+    ".plg": {
+      "files": 9,
+      "bytes": 11420
+    },
+    ".mexa64": {
+      "files": 8,
+      "bytes": 105542
+    },
+    ".mexglx": {
+      "files": 8,
+      "bytes": 80914
+    },
+    ".mexmaci64": {
+      "files": 8,
+      "bytes": 111088
+    },
+    ".ilk": {
+      "files": 7,
+      "bytes": 1379172
+    },
+    ".pch": {
+      "files": 7,
+      "bytes": 1549940
+    },
+    ".mexw32": {
+      "files": 6,
+      "bytes": 154624
+    },
+    ".nb": {
+      "files": 6,
+      "bytes": 14960
+    },
+    ".o": {
+      "files": 4,
+      "bytes": 36368
+    },
+    ".vc": {
+      "files": 4,
+      "bytes": 86016
+    },
+    ".ds_store": {
+      "files": 4,
+      "bytes": 12460
+    },
+    ".sav": {
+      "files": 4,
+      "bytes": 8341
+    },
+    ".idb": {
+      "files": 4,
+      "bytes": 151552
+    },
+    ".sas": {
+      "files": 4,
+      "bytes": 95784
+    },
+    ".otf": {
+      "files": 3,
+      "bytes": 25315488
+    },
+    ".dev": {
+      "files": 3,
+      "bytes": 4859
+    },
+    ".md": {
+      "files": 2,
+      "bytes": 33136
+    },
+    ".windows": {
+      "files": 2,
+      "bytes": 5046
+    },
+    ".ps": {
+      "files": 2,
+      "bytes": 265456
+    },
+    ".mdl": {
+      "files": 2,
+      "bytes": 44526
+    },
+    ".mv": {
+      "files": 2,
+      "bytes": 1584
+    },
+    ".pb": {
+      "files": 2,
+      "bytes": 156816
+    },
+    ".htm": {
+      "files": 2,
+      "bytes": 30608
+    },
+    ".js": {
+      "files": 2,
+      "bytes": 15678
+    },
+    ".css": {
+      "files": 2,
+      "bytes": 2288
+    },
+    ".mex4": {
+      "files": 2,
+      "bytes": 32520
+    },
+    ".mexhp7": {
+      "files": 2,
+      "bytes": 40960
+    },
+    ".mexlx": {
+      "files": 2,
+      "bytes": 14839
+    },
+    ".mexsol": {
+      "files": 2,
+      "bytes": 13828
+    },
+    ".log": {
+      "files": 2,
+      "bytes": 37254
+    },
+    ".dat": {
+      "files": 2,
+      "bytes": 300
+    },
+    ".java": {
+      "files": 2,
+      "bytes": 20860
+    },
+    ".wmv": {
+      "files": 2,
+      "bytes": 1947924
+    },
+    ".spv": {
+      "files": 2,
+      "bytes": 87247
+    },
+    ".lgr": {
+      "files": 2,
+      "bytes": 81146
+    },
+    ".mdb": {
+      "files": 2,
+      "bytes": 892928
+    },
+    ".cls": {
+      "files": 1,
+      "bytes": 26246
+    },
+    ".bst": {
+      "files": 1,
+      "bytes": 36981
+    },
+    ".bib": {
+      "files": 1,
+      "bytes": 692
+    },
+    ".ttf": {
+      "files": 1,
+      "bytes": 14476528
+    },
+    ".tex": {
+      "files": 1,
+      "bytes": 6042
+    },
+    ".eps": {
+      "files": 1,
+      "bytes": 458067
+    },
+    ".f": {
+      "files": 1,
+      "bytes": 15851
+    },
+    ".downloading": {
+      "files": 1,
+      "bytes": 2616585
+    },
+    ".prn": {
+      "files": 1,
+      "bytes": 828
+    },
+    ".skp": {
+      "files": 1,
+      "bytes": 91554
+    },
+    ".db": {
+      "files": 1,
+      "bytes": 15360
+    }
+  },
+  "publicationExclusions": [
+    "获奖名单中的姓名与学校",
+    "未确认结束赛事的解题材料",
+    "可执行文件与压缩包",
+    "未进入公开白名单的原文或大型数据集"
+  ]
+}

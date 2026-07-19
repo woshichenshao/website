@@ -41,3 +41,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local source library (large, licensed reference material; never deploy)
+/资料/
